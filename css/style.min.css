@@ -31,7 +31,7 @@
     padding-left: 10%;padding-top: 10px;
 }
 
-.homePage p{
+.homePage p a{
     border-radius: 6px 6px 6px 6px;
     background: #86b749;
     display: block;
