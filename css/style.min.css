@@ -42,6 +42,12 @@
 .homePage a{
     color:#fff;
 }
+.homePage a:link{
+    color:#fff;
+}
+.homePage a:hover{
+    color:#fff;
+}
 .cols{
        padding: 0;
       }
