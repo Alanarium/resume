@@ -1,12 +1,47 @@
 @charset "UTF-8";
 
+.headImg{
+    width: 30%;
+}
+.basicInfoPadding{
+    padding-left: 5%;
+    padding-right:5%;
+}
+.headTop{
+    background: #86b749;
+    padding-top: 20px;
+}
 .rows{
         margin-top:0 ;
         margin-left: 0;
         margin-right: 0;
       }
 
+.textColor{
+    color: #fff;
+}
 
+.basicInfo{
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+.basicInfoContent{
+    padding-left: 10%;padding-top: 10px;
+}
+
+.homePage p{
+    border-radius: 6px 6px 6px 6px;
+    background: #86b749;
+    display: block;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+}
+.homePage a{
+    color:#fff;
+}
 .cols{
        padding: 0;
       }
@@ -49,10 +84,132 @@ aside a {
 aside li {
     background: #fff;
 }
+.mainContent{
+    padding-top: 0px;
+}
 .mainContent ul{
     padding-left: 20px;
     padding-bottom: 10px;
 }
 .mainContent li{
     margin-bottom: 8px;
+}
+
+
+@media (min-width: 768px) {
+
+.headImg{
+  width: 30%;
+
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+.headImg{
+  width: 30%;
+
+}
+
+.contentTop{
+    padding-top: 30px;
+}
+
+.basicInfoPadding{
+    padding-left:0%;
+    padding-right:0%;
+}
+.headTop{
+    background: #fff;
+}
+.textColor{
+    color: #333;
+}
+.basicInfo{
+    border-top: none;
+    padding-top: 0;
+    margin-bottom: 30px;
+}
+.basicInfoContent{
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+.mainContent{
+    padding-top: 40px;
+}
+
+}
+
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { 
+
+.headImg{
+    width: 50%;
+}
+.contentTop{
+    padding-top: 30px;
+}
+.basicInfoPadding{
+    padding-left:0%;
+    padding-right:0%;
+}
+.headTop{
+    background: #fff;
+}
+
+.textColor{
+    color: #333;
+}
+.basicInfo{
+    border-top: none;
+    padding-top: 0;
+     margin-bottom: 30px;
+}
+.basicInfoContent{
+    padding-left: 10%;
+    padding-top: 10px;
+}
+.mainContent{
+    padding-top: 40px;
+}
+
+
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width:1200px) { 
+
+.headImg{
+    width: 50%;
+}
+.contentTop{
+    padding-top: 30px;
+}
+.basicInfoPadding{
+    padding-left:0%;
+    padding-right:0%;
+}
+.headTop{
+    background: #fff;
+}
+.textColor{
+    color: #333;
+}
+.basicInfo{
+    border-top: none;
+    padding-top: 0;
+     margin-bottom: 30px;
+}
+.basicInfoContent{
+    padding-left: 10%;
+    padding-top: 10px;
+}
+.mainContent{
+    padding-top: 40px;
+}
+
+
+
 }
