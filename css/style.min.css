@@ -39,6 +39,20 @@
     text-align: center;
     line-height: 40px;
 }
+
+.cols{
+       padding: 0;
+      }
+a{
+    color: #4a91bd;
+}
+a:link{
+    color: #4a91bd;
+}
+a:hover{
+    color: #4a91bd;
+}
+
 .homePage a{
     color:#fff;
 }
@@ -47,18 +61,6 @@
 }
 .homePage a:hover{
     color:#fff;
-}
-.cols{
-       padding: 0;
-      }
-a{
-    color: #86b749;
-}
-a:link{
-    color: #86b749;
-}
-a:hover{
-    color: #86b749;
 }
 ul{
     list-style: none;
@@ -84,7 +86,14 @@ aside a {
     width: 120px;
     height: 38px;
     line-height: 38px;
-    padding-left: 10px
+    padding-left: 10px;
+    color: #86b749;
+}
+aside a:link{
+    color: #86b749;
+}
+aside a:hover{
+    color: #86b749;
 }
 
 aside li {
